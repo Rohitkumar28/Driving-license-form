@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="progress-bar">
+          <div class="progress"></div>
+        </div>
+        <h3 class="hading">Lets get started!</h3>
+        <p class="para">Add your details (As per your registered records)</p>
+        <div class="questions">
+          <div class="question" id="question1">
+            <label for="input1"><h4>Name</h4></label>
+            <input type="text" id="input1" class="input-field" maxlength="20" placeholder="Enter Name">
+          </div>
+
+          <div class="question" id="question2">
+            <h4>Nature of Driving license</h4>
+            <div class="rad">
+                <div class="rad1"> <input type="radio" id="radio1" class="input-field" name="radiogroup">Private</div>
+                <div class="rad1"> <input type="radio" id="radio1" class="input-field" name="radiogroup">Commercial</div>
+            </div>    
+          </div>
+
+          <div class="question" id="question3">
+            <h4>Type of Previous Driving license</h4>
+            <div class="rad">
+                <div class="rad1"><input type="radio" id="radio2" class="input-field" name="radioGroup">Paper Driving license</div>
+                <div class="rad1"><input type="radio" id="radio2" class="input-field" name="radioGroup">Smart Driving license</div>
+            </div>
+          </div>
+
+          <div class="questions">
+            <div class="question" id="question4">
+              <label for="input4"><h4>Place Where Driving license was issued</h4></label>
+              <input type="text" id="input4" class="input-field" maxlength="20" placeholder="Enter Place Name">
+            </div>
+          
+          <div class="question" id="question5">
+            <label for="select1"><h4>Issued year of license</h4></label>
+            <select id="select1" class="input-field">
+              <option value="">Choose Issued Year Of License</option>
+              <option value="option1">2010</option>
+              <option value="option2">2011</option>
+              <option value="option3">2012</option>
+              <option value="option4">2013</option>
+              <option value="option5">2014</option>
+              <option value="option6">2016</option>
+              <option value="option7">2017</option>
+              <option value="option8">2018</option>
+              <option value="option9">2019</option>
+              <option value="option10">2020</option>
+            </select>
+          </div>
+          <div class="question" id="question6">
+            <label for="select2"><h4>Type of Previous Driving License </h4></label>
+            <select id="select2" class="input-field">
+              <option value="">Choose Expired Year Of License</option>
+              <option value="option1">2010</option>
+              <option value="option2">2011</option>
+              <option value="option3">2012</option>
+              <option value="option4">2013</option>
+              <option value="option5">2014</option>
+              <option value="option6">2016</option>
+              <option value="option7">2017</option>
+              <option value="option8">2018</option>
+              <option value="option9">2019</option>
+              <option value="option10">2020</option>
+            </select>
+          </div>
+          
+      </div>
+    <script src="script.js"></script>
+      
+</body>
+</html>

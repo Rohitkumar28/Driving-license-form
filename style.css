@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  .progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .progress {
+    width: 0;
+    height: 10px;
+    background-color: #d23422;
+    border-radius: 5px;
+    transition: width 0.5s ease;
+  }
+  .hading {
+    text-align: center;
+    color: #d23422;
+    font-weight: bolder;
+  }
+  .para {
+    text-align: center;
+    color: #a6a1a0;
+    font-weight: 100;
+  }
+  input[type="text"],
+  select{
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 0 10px 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.rad {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rad1 {
+    width: 45%;
+    padding: 10px 8px;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
